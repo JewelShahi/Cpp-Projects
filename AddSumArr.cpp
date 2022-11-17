@@ -2,6 +2,7 @@
 Find the entered  number in a vector where the sum of the valus in the number is the entered number
 */
 
+#include <iostream>
 #include <utility>
 using namespace std;
 pair<size_t, size_t> two_sum(const vector<int>& n, int tar) {
