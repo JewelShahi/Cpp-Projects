@@ -1,3 +1,7 @@
+/*
+Find the entered  number in a vector where the sum of the valus in the number is the entered number
+*/
+
 #include <utility>
 using namespace std;
 pair<size_t, size_t> two_sum(const vector<int>& n, int tar) {
@@ -18,12 +22,16 @@ pair<size_t, size_t> two_sum(const vector<int>& n, int tar) {
     return p;// returns the indexes
 }
 int main(){
+	int target;
 	vector<int> a;
 	a.push_back(5);
 	a.push_back(8);
 	a.push_back(1)
 	a.push_back(1);
 	a.push_back(4);
-	cout<<two_sum(a, 6)<<endl;
+	
+	cout<<"Enter a number\n:";
+	cin>>targer;
+	cout<<"\n\nResult:\n"<<two_sum(a, target)<<endl;
 	return 0;
 }
